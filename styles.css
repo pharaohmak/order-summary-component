@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.info-container p {
+    color: #666;
+    font-size: 1rem;
+}
+
+.plan-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    width: 100%;
+    background-color: hsl(225, 100%, 98%);
+}
+
+.plan-container div {
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.plan-container img {
+    padding: 0 px;
+}
+
+.plan-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.plan-info--container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin: 1rem;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    padding: 20px;
+}
+
+.btn-1 {
+    background-color: hsl(245, 75%, 52%);
+}
+
+.btn-2 {
+    background-color: hsl(225, 100%, 94%);
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(245, 75%, 52%);
+    font-size: 0.9rem;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.5rem;
+}
